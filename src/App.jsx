@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      <NavBar />
+      <NavBar onLogout={() => setPage("landing")} />
       <main className="flex-1 flex items-center justify-center">
         <StudentCard />
       </main>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function LoginModal({ onClose, onLoginSuccess }) {
-  const [mode, setMode] = useState("login"); // "login" or "register"
+  const [mode, setMode] = useState("login"); 
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
@@ -46,7 +46,7 @@ export default function LoginModal({ onClose, onLoginSuccess }) {
           >
             <input
               type="email"
-              placeholder="Email"
+              placeholder="Student Number or Email"
               className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
             />
             <input
