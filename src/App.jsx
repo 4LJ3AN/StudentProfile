@@ -1,6 +1,6 @@
-import navBar from "./components/navBar";
-import studentCard from "./components/studentCard";
-import footer from "./components/footer";
+import NavBar from "./components/navBar";
+import StudentCard from "./components/studentCard";
+import Footer from "./components/footer";
 
 export default function App() {
   return (
